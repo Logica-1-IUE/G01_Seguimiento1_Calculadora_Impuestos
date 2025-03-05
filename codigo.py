@@ -1,7 +1,7 @@
 ## Paso 1° Solicitar datos al usuario
-nombre= input ('JERONIMO \n')
-edad= int(input('18 '))
-estrato = int (input ('4 '))
+nombre= input ('ingrese su nombre')
+edad= int(input('edad'))
+estrato = int (input ('estrato'))
 ocupacion= input ('empleado del gobierno, desempleado o empleado privado')
 diasvividosenmedellin= int (input('dias vividos en medellin'))
 
