@@ -33,4 +33,4 @@ elif ocupacion == 3:
 print(f' Los impuestos totales para {JERONIMO}')
 print(f'Valor de $ {TOTAL} sin descuento')
 print(f'El descuento es {DESCUENTO}%')
-print(f'Valor luego del descuento del estrato el total es de ${FINAL}') 
+print(f'Valor luego del descuento del estrato el total es de ${FINAL}')
