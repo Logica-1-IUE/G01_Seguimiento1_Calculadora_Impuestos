@@ -1,0 +1,37 @@
+inicio
+ingresar los siguientes datos:
+  nombre
+  edad
+  estrato
+  ocupacion
+  dias viviendo en medellin
+si el estrato es 0
+ total = pagar $0
+ imprimir(f'no pagar impuestos')
+si el estrato es 1 o 2
+ total = calcular $500 por dias viviendo en medellin
+ imprimir(f'pagar $500 por dias viviendo')
+si el estrato es 3 0 4 
+ total = calcular $50.000 por dias viviendo en medellin mas $1.000.000 de base
+ imprimir(f'pagar $50.000 por dias viviendo en medellin mas 1.000.000 de base')
+si el estrato es 5 o 6
+ total = calcular $250.000 por dias viviendo en medellin
+ imprimir(f'pagar $250.000 por dias viviendo en medellin')
+si la persona es empleada del gobierno
+ final = multiplicar 0.50 por el total
+ descuento = 50%
+ imprimir(f'el descuento es del 50%') 
+si la persona es desempleada 
+ final = multiplicar 0.10 por el total
+ descuento = 10%
+ imprimir(f'el descuento es del 10%')
+si la persona es empleado del sector privado
+ final = multiplicar 0.05 por el total
+ descuento = 5%
+ imprimir(f'el descuento es del 5%')
+imprimir(f'los impuestos totales para {nombre} con {edad} años' )
+imprimir(f'Es el valor de {total}sin descuento')
+imprimir(f'El porcentaje del descuento es {descuento}')
+imprimir(f'Con el descuento del estrato es {final}')
+https://lucid.app/lucidchart/3881378d-ecdb-4fd0-8e74-49feb72921a9/edit?viewport_loc=752%2C-337%2C1700%2C753%2C0_0&invitationId=inv_439efff2-491c-46b6-983e-cbca408680f8
+fin
