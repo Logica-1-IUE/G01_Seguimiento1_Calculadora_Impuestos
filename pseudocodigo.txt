@@ -1,0 +1,14 @@
+inicio
+    darle un valor a la constante (A)
+    reclamar del usuario un valor (b)
+    transformar (b) en un entero
+    sumar A+b =c
+    imprimir c
+    restar  A-b =d
+    imprimir d
+    multiplicar  A*b=w
+    imprimir w
+    dividir  A/b= k
+    imprimir k
+    si el valor de dividir es decimal convertirlo a entero A/b y luego imprimir
+fin
