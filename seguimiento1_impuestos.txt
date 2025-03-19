@@ -1,0 +1,48 @@
+inicio 
+    Ingresar los datos  
+            nombre
+            edad
+            dias vividos en medellin
+            estrato socio economico
+            ocupacion
+    Recibir numeros de estratos
+        A:0
+        B:1
+        C:2
+        D:3
+        E:4
+        k:5
+        G:6
+    Ejecutar segun la respuesta
+        si la respuesta es A 
+            no paga impuesto
+            imprimir (f'no paga')
+        si la respuesta es B o C 
+            Calcular $500 por dia vivido
+            imprimir (f'resultado')
+        si la respuesta es D o E
+            Calcular $50.000 por dia 
+            imprimir (f'resultado')
+        si la respuesta es K o G
+            Calcular $250.000 por dia
+            imprimir (f'resultado')
+        X= el resultado de D Y E 
+        Ejecutar X+$1.000.000
+        imprimir (f'resultado')
+    Recibir dato empleado
+            si es empleado del gobierno 50% descuento sobre el resultado
+            imprimir (f'resultado')
+    Recibir dato desempleado
+            si es desempleado 10% descuento sobre el resultado
+            imprimir (f'resultado')
+    Recibir dato empleado sector privado
+            si es empleado privado 5% descuento sobre el resultado
+            imprimir f('resultado')
+    Ejecutar impresiones 
+        Imprimir (f'resultado de (nombre)(edad))
+        Imprimir (f'(nombre)+(valor total sin impuesto))
+        Imprimir (f'dias vividos en medellin para saber valor a pagar)
+        Imprimir (f'resultado del descuento)
+        Imprimir (f'valor luego del descuento)
+Fin
+https://lucid.app/lucidchart/ec76f091-4d68-43c9-bf86-7326757fd4cf/edit?viewport_loc=-264%2C2462%2C1462%2C711%2C0_0&invitationId=inv_21987884-1635-46fa-91b5-f15f935b252e
