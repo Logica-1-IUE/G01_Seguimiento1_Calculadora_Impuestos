@@ -1,0 +1,36 @@
+inicio
+inserte los siguientes datos:
+    nombre
+    edad
+    estrato
+    ocupacion
+    dias vividos en medellin
+persona estrato 0
+    absoluto = pagar $0 impuestos
+    imprimir(f'pagar $0 impuestos')
+persona estrato 1 y 2
+    absoluto = pagar $500 pesos por día vivido en la ciudad
+    imprimir(f'pagar $500 pesos por dia vivido en la ciudad')
+persona estrato 3 y 4
+    absoluto = la base es $1.000.000 y debe pagar $50.000 por cada dia vivido en la ciudad
+    imprimir(f'pagar $50.000 por cada dia vivido en la ciudad mas $1.000.000')
+persona estrato 5 y 6
+    absoluto = pagar $250.000 por cada dia vivido en la ciudad
+    imprimir(f'pagar $250.000 por cada dia vivido en la ciudad')
+empleado del gobierno
+    si es empleado del gobierno 
+    total = multiplicar por 50% sobre el valor de los impuestos
+    imprimir(f'descuento de 50%')
+desempleado
+    si es desempleado 
+    total = multiplicar por 10% sobre el valor de los impuestos
+    imprimir(f'descuento de 10%')
+empleado del sector privado
+    si es empleado del sector privado 
+    total = multiplicar por 5% sobre el valor de los impuestos
+    imprimir(f'descuento de 5%')
+imprimir(f'los impuestos totales para {nombre}')
+imprimir(f' el valor de {total} sin descuento')
+imprimir(f'el porcentaje de descuento es {descuento}')
+imprimir(f'valor luego del descuento del estrato es {final}')
+fin
